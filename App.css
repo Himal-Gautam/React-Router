@@ -1,0 +1,36 @@
+#brand {
+	display: flex;
+	align-items: center
+}
+
+.content {
+  padding: 50px;
+}
+
+.content, .user-content, #welcome , .create {
+	display: flex;
+	flex-wrap: wrap;
+	display: flex;
+	gap: 10px;
+	justify-content: space-evenly;
+}
+
+#welcome, .card_align, .profile-data{
+ 	display: flex;
+	flex-direction: column;
+	text-align: center
+}
+
+.card_align {
+	align-items: center;
+}
+
+.title {margin: 0px;}
+
+/* .profile-content{
+	width:100%;
+} */
+
+/* .profile-data{
+	width:100%;
+} */
